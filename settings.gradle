@@ -1,5 +1,8 @@
 include ':FtcRobotController'
 
+include ':endercv:openCVLibrary3'
+include ':endercv:endercv'
+
 // Iterate through all team-provided directories and include them.
 FileCollection teamFiles = files { rootProject.projectDir.listFiles() }
 boolean teamDirectoryFound = false
